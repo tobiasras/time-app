@@ -3,6 +3,7 @@ let isStart = true;
 let lastDate;
 let startPoint;
 
+
 fetch("/api/times").then(response => response.json()).then(body => {
     body.data.forEach(timeString => {
         const timeMS = Date.parse(timeString);
