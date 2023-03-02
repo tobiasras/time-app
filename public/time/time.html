@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time</title>
+
+    <link rel="stylesheet" href="/time/time.css">
+    <script src="/time/time.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div>
+        <div class="stopwatch">
+            <div class="btn-container">
+                <button id="time-switch" onclick="timeSwitch()">Start</button>
+                <button onclick="resetTime()">Reset</button>
+            </div>
+
+
+            <div class="display">
+                <h1>
+                    <span id="hour">00</span> :
+                    <span id="minutes">00</span> :
+                    <span id="seconds">00</span> :
+                    <span id="mseconds">000</span>
+                </h1>
+            </div>
+
+            <div class="center">
+                <button onclick="recordTime()">clock</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="console-container">
+        <div>
+            <h3>Saved times</h3>
+        </div>
+
+
+            <div class="time-clock">
+                <ul id="recorded-times">
+
+
+                </ul>
+            </div>
+
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

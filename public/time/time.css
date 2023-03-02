@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stopwatch{
+    border-radius: 1em 1em 3em 3em;
+    margin-top: 3em;
+    background: #212121;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.display{
+    border-radius: 1em;
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+    background: aliceblue;
+}
+
+.console-container{
+    margin-top: 4em;
+    border: solid;
+    height: 15em;
+    padding: 1em 1em 1em 1em;
+    width: 500px;
+}
+
+.console-container h3{
+    padding: 0;
+    margin: 0;
+}
+
+.container-start{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.time-clock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-clock p {
+    margin: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.btn-container button{
+    padding: 2em;
+    width: 33%;
+    margin-top: -3em;
+}
