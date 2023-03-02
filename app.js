@@ -7,7 +7,6 @@ app.use(express.static(__dirname + "/public/"));
 let recordedTimes = [];
 
 
-
 // pages
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/time/time.html");
